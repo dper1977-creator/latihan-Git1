@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV Dylan Perdana</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -23,17 +25,26 @@
       background: #f7921e;
       color: #fff;
       padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     .sidebar img {
-      width: 100%;
+      width: 150px;
+      height: 180px;
       border-radius: 10px;
       margin-bottom: 20px;
+      object-fit: cover;
+      border: 3px solid #fff;
     }
     .sidebar h2 {
       font-size: 18px;
+      margin-top: 10px;
       margin-bottom: 10px;
       border-bottom: 2px solid #fff;
       padding-bottom: 5px;
+      width: 100%;
+      text-align: left;
     }
     .sidebar p, .sidebar li {
       font-size: 14px;
@@ -43,11 +54,16 @@
       list-style: none;
       padding: 0;
     }
+    .sidebar .info i {
+      margin-right: 8px;
+      width: 18px;
+    }
     .content {
       padding: 20px;
     }
     .content h1 {
       margin-top: 0;
+      font-size: 28px;
     }
     .section {
       margin-bottom: 20px;
@@ -73,12 +89,14 @@
   <div class="container">
     <!-- Sidebar -->
     <div class="sidebar">
-      <img src="cv.jpg" alt="Foto Profil">
+      <img src="C:\Users\ACER\Desktop\latihan-Git1\fotoq.png" alt="fotoq" />
       <h2>Data Diri</h2>
-      <p><b>Tanggal Lahir:</b><br>22 Oktober 1977</p>
-      <p><b>Alamat:</b><br>Perum Gramapuri Persada<br>Jl. Hanjulang Raya Blok E1/7<br>ds. Sukajaya Cibitung</p>
-      <p><b>Telpon:</b><br>085220337790</p>
-      <p><b>Email:</b><br>dperdana77@gmail.com</p>
+      <div class="info">
+        <p><i class="fa-solid fa-calendar"></i> 22 Oktober 1977</p>
+        <p><i class="fa-solid fa-location-dot"></i> Perum Gramapuri Persada<br>Jl. Hanjulang Raya Blok E1/7<br>ds. Sukajaya Cibitung</p>
+        <p><i class="fa-solid fa-phone"></i> 085220337790</p>
+        <p><i class="fa-solid fa-envelope"></i> dperdana77@gmail.com</p>
+      </div>
       
       <h2>Keahlian</h2>
       <ul>
@@ -90,8 +108,8 @@
       
       <h2>Hobi</h2>
       <ul>
-        <li>Bersepeda</li>
-        <li>Membaca</li>
+        <li><i class="fa-solid fa-bicycle"></i> Bersepeda</li>
+        <li><i class="fa-solid fa-book"></i> Membaca</li>
       </ul>
     </div>
 
@@ -100,7 +118,7 @@
       <h1>Dylan Perdana</h1>
 
       <div class="section">
-        <h2>Tentang Saya</h2>
+        <h2><i class="fa-solid fa-user"></i> Tentang Saya</h2>
         <p>
           Saya seorang agent IT dan agent property independent area Kabupaten Bekasi dan sekitarnya, 
           membantu konsumen, menunjukkan permasalahannya (kondisioning), memberi solusi yang solutif 
@@ -109,7 +127,7 @@
       </div>
 
       <div class="section">
-        <h2>Pendidikan</h2>
+        <h2><i class="fa-solid fa-graduation-cap"></i> Pendidikan</h2>
         <ul>
           <li>1999-2004 : D3 Profesional Desain Produk ITS</li>
           <li>1996-1998 : D2 IKMII Analis Komputer Yogyakarta</li>
@@ -120,7 +138,7 @@
       </div>
 
       <div class="section">
-        <h2>Pengalaman</h2>
+        <h2><i class="fa-solid fa-briefcase"></i> Pengalaman</h2>
         <ul>
           <li>Kymco Motor Indonesia - R&D Design Stripping (2005-2010)</li>
           <li>Smartfren Telecom Sinarmas Indonesia - Analyst Data Warehouse (2010-2012)</li>
